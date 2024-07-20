@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Schedule Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Class Schedule Page</h1>
+    </header>
+
+    <div class="class">
+        <h2>Yoga</h2>
+        <p>Schedule:</p>
+        <ul>
+            <li>Monday: 7:00 AM - 8:00 AM</li>
+            <li>Wednesday: 6:00 PM - 7:00 PM</li>
+            <li>Friday: 8:00 AM - 9:00 AM</li>
+        </ul>
+        <button onclick="bookClass('Yoga')">Book Yoga</button>
+    </div>
+
+    <div class="class">
+        <h2>Gym</h2>
+        <p>Schedule:</p>
+        <ul>
+            <li>Monday to Friday: 6:00 AM - 10:00 PM</li>
+            <li>Saturday: 8:00 AM - 8:00 PM</li>
+            <li>Sunday: 10:00 AM - 6:00 PM</li>
+        </ul>
+        <button onclick="bookClass('Gym')">Book Gym</button>
+    </div>
+
+    <div class="class">
+        <h2>Aerobics</h2>
+        <p>Schedule:</p>
+        <ul>
+            <li>Tuesday: 7:00 PM - 8:00 PM</li>
+            <li>Thursday: 7:00 PM - 8:00 PM</li>
+            <li>Saturday: 10:00 AM - 11:00 AM</li>
+        </ul>
+        <button onclick="bookClass('Aerobics')">Book Aerobics</button>
+    </div>
+
+
+    <script>
+        function bookClass(className) {
+            alert('You booked ' + className + ' class!');
+        }
+    </script>
+</body>
+</html>

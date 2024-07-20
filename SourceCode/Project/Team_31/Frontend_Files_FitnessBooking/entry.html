@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Fitness CLass Booking Platform</title>
+        <style>
+            body {
+                background-image: url(background-image.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                margin:0;
+                display: flex; 
+                justify-content: center; /*horizontal*/
+                align-items: center;   /*vertical */
+            }
+            #entry {
+                text-align: center;
+            }
+            h1 {
+                font-size: 3rem;
+                margin: 0;
+            }
+            input {
+                border: none;
+                color:#fff;
+                background-color: #007BFF;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="entry">
+            <h1>Welcome to FitLife</h1>
+            <h2> Your Gateway to Wellness</h2>
+            <input type="button" onclick="redirect()" value="Get Started">
+        </div>
+        <script>
+            function redirect() {
+                window.location.href="login.html";
+            }
+        </script>
+
+    </body>
+</html>

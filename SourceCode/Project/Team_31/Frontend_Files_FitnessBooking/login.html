@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+            }
+            .b1,.b2 {
+                background-color: #007BFF;
+                color: #fff;
+                border:none;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <form>
+            <h1>LOGIN PAGE</h1>
+            <label>Username:</label>
+            <input type="text" id="name"><br><br>
+            <label>Password:</label>
+            <input type="password" id="password"><br><br>
+            <input type="button" class="b1" value="Login" onclick="loginAlert()">
+            <input type="button" class="b2" value="SignUp">
+        </form>
+        <script>
+            function loginAlert() {
+            alert("You are Logged in!");
+        }
+        </script>
+    </body>
+</html>
